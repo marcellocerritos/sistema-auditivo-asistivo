@@ -1,0 +1,59 @@
+# Private / internal engineering material
+private/
+internal/
+evidence/
+raw-research/
+patent-analysis/
+claim-charts/
+
+# Research data and unpublished artifacts
+data/
+datasets/
+recordings/
+models/
+*.wav
+*.flac
+*.csv
+*.npz
+*.onnx
+*.tflite
+*.pdf
+*.zip
+
+# Build artifacts
+build/
+Debug/
+Release/
+*.elf
+*.map
+*.hex
+*.bin
+*.o
+*.obj
+*.log
+
+# Hardware source files requiring manual publication review
+*.ioc
+*.kicad_sch
+*.kicad_pcb
+*.gbr
+*.ger
+*.drl
+
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*serviceAccount*.json
+*firebase-adminsdk*.json
+*credentials*.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
